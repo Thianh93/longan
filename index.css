@@ -24,7 +24,7 @@
         padding-bottom: 0;
     }
     #content1 h1 {
-        font-size: 2.75rem;
+        font-size: 2.5rem;
     }
     #content1 p {
         font-size: 0.8rem;
@@ -33,9 +33,32 @@
     [class*="col-"] {
         width: 100%;
     }
-
-    
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    header {
+        position: relative;
+        background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("imgs4/dat-tp-tan-an.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 25rem;
+        clear: both;
+    }
+
+    header #content1 {
+        position: absolute; 
+        top: 4rem;
+        left: 3rem !important;  
+        color:#fff ;
+        text-align: center;
+        }
+    #content1 p {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+}
+
 
 header {
     position: relative;
@@ -51,8 +74,8 @@ header {
     left: 17.5rem;  
     color:#fff ;
     text-align: center;
-    
     }
+    
     header h1 {
         font-family: 'Fuggles', cursive;
         font-weight: bolder;
